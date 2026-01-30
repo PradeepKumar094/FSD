@@ -1,0 +1,81 @@
+/* Weather App Background Options */
+
+/* Option 1: Clear Sky Theme */
+.bg-clear-sky {
+  background: linear-gradient(135deg, 
+    #87CEEB 0%,   /* Sky Blue */
+    #98D8E8 25%,  /* Light Blue */
+    #F0F8FF 50%,  /* Alice Blue */
+    #87CEEB 75%,  /* Sky Blue */
+    #4682B4 100%  /* Steel Blue */
+  );
+}
+
+/* Option 2: Sunset Theme */
+.bg-sunset {
+  background: linear-gradient(135deg, 
+    #FF6B6B 0%,   /* Coral */
+    #FF8E53 25%,  /* Orange */
+    #FF6B9D 50%,  /* Pink */
+    #C44569 75%,  /* Dark Pink */
+    #F8B500 100%  /* Amber */
+  );
+}
+
+/* Option 3: Storm Theme */
+.bg-storm {
+  background: linear-gradient(135deg, 
+    #2C3E50 0%,   /* Dark Blue */
+    #34495E 25%,  /* Dark Gray */
+    #5D6D7E 50%,  /* Blue Gray */
+    #85929E 75%,  /* Light Gray */
+    #BDC3C7 100%  /* Silver */
+  );
+}
+
+/* Option 4: Nature Green Theme */
+.bg-nature {
+  background: linear-gradient(135deg, 
+    #2ECC71 0%,   /* Emerald */
+    #27AE60 25%,  /* Green */
+    #16A085 50%,  /* Turquoise */
+    #1ABC9C 75%,  /* Light Turquoise */
+    #48C9B0 100%  /* Aqua */
+  );
+}
+
+/* Option 5: Night Theme */
+.bg-night {
+  background: linear-gradient(135deg, 
+    #2C3E50 0%,   /* Midnight Blue */
+    #34495E 25%,  /* Dark Slate */
+    #5D4E75 50%,  /* Purple Gray */
+    #85678F 75%,  /* Lavender Gray */
+    #A569BD 100%  /* Amethyst */
+  );
+}
+
+/* Dynamic Weather Backgrounds */
+.weather-clear {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+}
+
+.weather-clouds {
+  background: linear-gradient(135deg, #ddd6fe 0%, #8b5cf6 100%);
+}
+
+.weather-rain {
+  background: linear-gradient(135deg, #64748b 0%, #334155 100%);
+}
+
+.weather-snow {
+  background: linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%);
+}
+
+.weather-thunderstorm {
+  background: linear-gradient(135deg, #374151 0%, #111827 100%);
+}
+
+.weather-mist {
+  background: linear-gradient(135deg, #f3f4f6 0%, #9ca3af 100%);
+}
